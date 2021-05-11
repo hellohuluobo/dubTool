@@ -1,0 +1,5 @@
+<seal-msg>
+    <view slot='header' class="head">
+    my
+    </view>
+</seal-msg>

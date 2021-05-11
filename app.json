@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "src/pages/Index/index",
+    "src/pages/My/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "配音神器",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

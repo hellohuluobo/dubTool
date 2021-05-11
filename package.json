@@ -1,0 +1,47 @@
+{
+  "name": "wefly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "set NODE_ENV=dev && gulp",
+    "build": "set NODE_ENV=prod && gulp dist"
+  },
+  "lint-staged": {
+    "src/**/*.{js}": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hellohuluobo/dubTool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "babel-eslint": "^10.0.3",
+    "cross-env": "^5.2.1",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.3.0",
+    "eslint-loader": "^3.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "gulp": "3.9.1",
+    "gulp-clean": "0.3.2",
+    "gulp-eslint": "4.0.0",
+    "gulp-imagemin": "2.4.0",
+    "gulp-less": "3.3.2",
+    "gulp-postcss": "6.1.0",
+    "gulp-rename": "1.2.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-sync": "0.1.4",
+    "gulp-text-simple": "0.4.1",
+    "husky": "^3.0.5",
+    "lint-staged": "^9.3.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2"
+  },
+  "dependencies": {
+    "qrcode": "^1.4.4",
+    "wx-server-sdk": "^1.8.2"
+  }
+}

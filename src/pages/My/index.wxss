@@ -1,0 +1,20 @@
+.head{
+  text-align: center;
+  margin-top: 48px;
+  position: relative;
+}
+.head-img{
+  width: 216px;
+  height: 193px;
+}
+.check-img{
+  position: absolute;
+  bottom: 20px;
+  left: 119px;
+  width: 30px;
+  height: 30px;
+}
+.foot{
+  margin-top: 14px;
+  padding: 0 64px;
+}
