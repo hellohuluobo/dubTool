@@ -1,6 +1,5 @@
 <seal-msg>
     <view slot='header' class="head">
     hello
-    <Tabbar></Tabbar>
     </view>
 </seal-msg>
