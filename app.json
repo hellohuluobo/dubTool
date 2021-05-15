@@ -1,7 +1,8 @@
 {
   "pages": [
+    "src/pages/Home/index",
     "src/pages/My/index",
-    "src/pages/Home/index"
+    "src/pages/Voice/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

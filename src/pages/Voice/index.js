@@ -11,9 +11,7 @@ Component({
   },
   methods: {
     switchTab: function (){
-      wx.navigateTo({
-        url:'/src/pages/Voice/index'
-      })
+      console.log('=========');
     }
   }
 })

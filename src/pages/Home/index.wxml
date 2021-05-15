@@ -1,3 +1,14 @@
 <view>
-    home
+     <view class="img-wrap">
+        <image class="img" src="/src/images/horn.png"></image>
+        <view class="img-text">配音神器</view>
+      </view>
+      <view class="banner_desc">
+          <view>一键文字转语音</view>
+          <view>极速生成抖音和广告配音</view>
+      </view>
+      <view class="btns">
+          <button class="made_dub" bindtap="switchTab">制作配音</button>
+          <button class="share">推荐给朋友</button>
+      </view>
 </view>

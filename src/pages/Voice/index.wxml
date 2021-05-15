@@ -1,0 +1,20 @@
+<view class="voice_wrap">
+  <view>
+      <view>输入文字</view>
+      <view>
+          <view>文字模板</view>
+          <view>></view>
+      </view>
+  </view>
+  <view>
+      <textarea placeholder="placeholder颜色是红色的" placeholder-style="color:red;"  />
+  </view>
+   <view>
+      <view>配音设置</view>
+      <view>
+          <view></view>配音案列
+          <view>></view>
+      </view>
+  </view>
+  <view></view>
+</view>

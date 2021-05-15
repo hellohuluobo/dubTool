@@ -1,20 +1,27 @@
-.head{
+.img-wrap{
+  margin-top: 20px;
   text-align: center;
-  margin-top: 48px;
-  position: relative;
 }
-.head-img{
-  width: 216px;
-  height: 193px;
+.img{
+  width: 80px;
+  height: 80px;
 }
-.check-img{
-  position: absolute;
-  bottom: 20px;
-  left: 119px;
-  width: 30px;
-  height: 30px;
+.img-text{
+  font-weight: 700;
 }
-.foot{
-  margin-top: 14px;
-  padding: 0 64px;
+.banner_desc{
+  text-align: center;
+  padding: 30px 0px;
+}
+.btns{
+  padding: 0px 12px;
+}
+.made_dub{
+  background-color: rgb(86, 228, 86);
+  color: white;
+  margin-bottom: 8px;
+}
+.share{
+  background-color: rgb(224, 65, 65);
+  color: white;
 }
