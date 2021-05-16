@@ -1,17 +1,5 @@
-Component({
-  pageLifetimes: {
-    show() {
-      if (typeof this.getTabBar === 'function' &&
-        this.getTabBar()) {
-        this.getTabBar().setData({
-          selected: 0
-        })
-      }
-    }
-  },
-  methods: {
-    switchTab: function (){
-      console.log('=========');
-    }
-  }
+Page({
+ data:{
+  placeholder:'这里输入或者粘贴要配音的文字 温馨提示: 1.规范使用标点符号，配音更准确。如使用，。断句 2.如有多音字发音不对，可以输入发音相同的字替代'
+ }
 })

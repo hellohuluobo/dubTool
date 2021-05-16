@@ -1,20 +1,35 @@
 <view class="voice_wrap">
-  <view>
-      <view>输入文字</view>
-      <view>
-          <view>文字模板</view>
-          <view>></view>
-      </view>
-  </view>
-  <view>
-      <textarea placeholder="placeholder颜色是红色的" placeholder-style="color:red;"  />
-  </view>
-   <view>
-      <view>配音设置</view>
-      <view>
-          <view></view>配音案列
-          <view>></view>
-      </view>
-  </view>
-  <view></view>
+    <view class="list">
+        <view class="list_title">输入文字</view>
+        <view class="list_text">
+            <view class="list_text_desc">文字模板</view>
+            <image style="{height:10px}" src="../../images/arrow_right.png"></image>
+        </view>
+    </view>
+    <view class="textarea-wrap">
+        <textarea placeholder="{{placeholder}}" placeholder-style="color:#cdcdcd;" class="textarea_content" />
+    </view>
+    <view class="list">
+        <view class="list_title">配音配置</view>
+        <view class="list_text">
+            <view class="list_text_desc">配音案列</view>
+            <image style="{height:10px}" src="../../images/arrow_right.png"></image>
+        </view>
+    </view>
+    <view class="voice_list_wrap">
+        <view class="voice_list">
+            <view class="voice_list_title">声音</view>
+            <view class="voice_list_text">
+                <view class="voice_list_text_desc">自然女声-艾夏</view>
+                <image style="{height:10px}" src="../../images/arrow_right.png"></image>
+            </view>
+        </view>
+        <view class="voice_list">
+            <view class="voice_list_title">语速</view>
+            <view class="voice_list_text">
+                <view class="voice_list_text_desc">正常语速</view>
+                <image style="{height:10px}" src="../../images/arrow_right.png"></image>
+            </view>
+        </view>
+    </view>
 </view>

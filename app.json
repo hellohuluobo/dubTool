@@ -25,7 +25,7 @@
       "pagePath": "src/pages/My/index",
       "iconPath": "/src/images/my_icon.png",
       "selectedIconPath": "/src/images/my_icon_active.png",
-      "text": "日志"
+      "text": "我的"
     }]
   },
   "sitemapLocation": "sitemap.json"

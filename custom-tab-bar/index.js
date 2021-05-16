@@ -13,7 +13,8 @@ Component({
         iconPath: "/src/images/my_icon.png",
         selectedIconPath: "/src/images/my_icon_active.png",
         text: "我的"
-      }]
+      }],
+      showTabbar: true
     },
     attached() {
     },

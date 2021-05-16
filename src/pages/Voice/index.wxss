@@ -1,5 +1,44 @@
 .voice_wrap{
   width: 100%;
   height: 100vh;
-  background-color: rgb(158, 156, 156);
+  background-color: rgb(245, 244, 244);
+  font-size: 16px;
+}
+.voice_wrap image {
+  width: 24px;
+  height: 24px;
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+  line-height: 52px;
+  padding: 0px 12px;
+}
+.list_title{
+  color: #cdcdcd;
+}
+.list_text{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list_text_desc{
+  color: rgb(62, 170, 241);
+}
+.textarea-wrap {
+  width: 100%;
+  background-color: #fff;
+  height: 16em;
+  padding: 12px;
+}
+.textarea_content{
+  width: 94%;
+}
+.voice_list_wrap{
+  width: 100%;
+  padding: 12px;
+  background-color: #fff;
+}
+.voice_list{
+  display: flex;
 }
